@@ -2,7 +2,7 @@ import React from 'react';
 import { Query } from 'react-apollo';
 import { gql } from 'apollo-boost';
 
-import Spinner from '../spinner/spinner.component';
+import Spinner from '../../components/spinner/spinner.component';
 import CollectionPage from './collection.component';
 
 const GET_COLLECTIONS_BY_TITLE = gql`
